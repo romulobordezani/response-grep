@@ -1,0 +1,25 @@
+{
+  "name": "response grep",
+  "version": "1.0.1",
+  "description": "Looks for some string in a url response",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/romulobordezani/response-grep.git"
+  },
+  "contributors": [
+    {
+      "name": "Romulo Bordezani",
+      "email": "romulobordezani@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "request": "^2.81.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  }
+}
